@@ -23,5 +23,5 @@ r = requests.post('https://www.googleapis.com/qpxExpress/v1/trips/search?key=' +
                  data = json.dumps(data),
                 headers = headers)
 
-response = r.json()
-print response
+jsonResponse = r.json()
+print jsonResponse

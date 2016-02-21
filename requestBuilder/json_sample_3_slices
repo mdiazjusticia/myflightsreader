@@ -1,0 +1,4730 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "EIScU42tfaXqiz7Xt0NpYh",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "AMS",
+     "city": "AMS",
+     "name": "Amsterdam Schiphol Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BCN",
+     "city": "BCN",
+     "name": "Barcelona"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MAD",
+     "city": "MAD",
+     "name": "Madrid Adolfo Suarez-Barajas"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "AMS",
+     "name": "Amsterdam"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BCN",
+     "name": "Barcelona"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MAD",
+     "name": "Madrid"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "32S",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "332",
+     "name": "Airbus A330"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "737",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "738",
+     "name": "Boeing 737"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QV_001",
+     "name": "Spain Security Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "OG_001",
+     "name": "Spain Aviation Safety And Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "VV_001",
+     "name": "Netherlands Noise Surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RN_001",
+     "name": "The Netherlands Passenger Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "CJ_001",
+     "name": "Netherlands Security Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "IB YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "JD_001",
+     "name": "Spain Departure Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "BA",
+     "name": "British Airways p.l.c."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "IB",
+     "name": "Iberia Lineas Aereas de Espana S.A."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UX",
+     "name": "Air Europa Lineas Aereas, S.A."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR211.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "BA",
+         "number": "8147"
+        },
+        "id": "Gg9Ae70OgD5wvkco",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LthmnaX-XKdpnywt",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "carrier": "BA",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "segmentId": "Gg9Ae70OgD5wvkco"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR57.26",
+      "saleTotal": "EUR211.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN BA AMS 58.79ORTVY IB X/MAD IB BCN 108.88ONL3NB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-21T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR211.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "BA",
+         "number": "8149"
+        },
+        "id": "GTvc-CmeMJ4WluI9",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LAoZlj-Cn242FCkI",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T18:00+02:00",
+          "departureTime": "2016-05-20T15:35+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "carrier": "BA",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "segmentId": "GTvc-CmeMJ4WluI9"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR57.26",
+      "saleTotal": "EUR211.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN BA AMS 58.79ORTVY IB X/MAD IB BCN 108.88ONL3NB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-21T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR216.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "IB",
+         "number": "5361"
+        },
+        "id": "GGQnBqVoQAi-wwRC",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-ErdPH7O3Wir6jl",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GGQnBqVoQAi-wwRC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR139.00",
+      "saleFareTotal": "EUR139.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR216.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 108.88ONL3NB NUC 151.34 END ROE 0.918404 FARE EUR 139.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR216.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "5770"
+        },
+        "id": "GcdomN64Z6+9nVwK",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L6K-UJx08Cjg1dJe",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T18:00+02:00",
+          "departureTime": "2016-05-20T15:35+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GcdomN64Z6+9nVwK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR139.00",
+      "saleFareTotal": "EUR139.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR216.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 108.88ONL3NB NUC 151.34 END ROE 0.918404 FARE EUR 139.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR226.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "BA",
+         "number": "8147"
+        },
+        "id": "Gg9Ae70OgD5wvkco",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LthmnaX-XKdpnywt",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2714"
+        },
+        "id": "GzambUOUf-s015w+",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2DNVpWTc2NgBKSA",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-22T14:15+02:00",
+          "departureTime": "2016-05-22T13:00+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "carrier": "BA",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "QNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GzambUOUf-s015w+"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AKXoxaVVvzDvtsKl6viwiUWotADFUu3yBJcNQs7ah5Gw",
+        "segmentId": "Gg9Ae70OgD5wvkco"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GorXYiOVef7sI5aR"
+       }
+      ],
+      "baseFareTotal": "EUR169.00",
+      "saleFareTotal": "EUR169.00",
+      "saleTaxTotal": "EUR57.26",
+      "saleTotal": "EUR226.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN BA AMS 58.79ORTVY IB X/MAD IB BCN 125.21QNLNNB NUC 184.00 END ROE 0.918404 FARE EUR 169.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-21T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR231.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "5770"
+        },
+        "id": "GcdomN64Z6+9nVwK",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L6K-UJx08Cjg1dJe",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T18:00+02:00",
+          "departureTime": "2016-05-20T15:35+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2736"
+        },
+        "id": "GI+KbWyuIM3HaYln",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 8,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlRuqeDsbHwk+-TW",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T19:45+02:00",
+          "departureTime": "2016-05-22T18:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "QNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GcdomN64Z6+9nVwK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GI+KbWyuIM3HaYln"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GorXYiOVef7sI5aR"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR231.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 125.21QNLNNB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR231.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "IB",
+         "number": "5361"
+        },
+        "id": "GGQnBqVoQAi-wwRC",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-ErdPH7O3Wir6jl",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2736"
+        },
+        "id": "GI+KbWyuIM3HaYln",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 8,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlRuqeDsbHwk+-TW",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T19:45+02:00",
+          "departureTime": "2016-05-22T18:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "QNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GI+KbWyuIM3HaYln"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GGQnBqVoQAi-wwRC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GorXYiOVef7sI5aR"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR231.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 125.21QNLNNB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR231.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "IB",
+         "number": "5361"
+        },
+        "id": "GGQnBqVoQAi-wwRC",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-ErdPH7O3Wir6jl",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2714"
+        },
+        "id": "GzambUOUf-s015w+",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2DNVpWTc2NgBKSA",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-22T14:15+02:00",
+          "departureTime": "2016-05-22T13:00+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "QNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GzambUOUf-s015w+"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GGQnBqVoQAi-wwRC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GorXYiOVef7sI5aR"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR231.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 125.21QNLNNB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR231.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "5770"
+        },
+        "id": "GcdomN64Z6+9nVwK",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L6K-UJx08Cjg1dJe",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T18:00+02:00",
+          "departureTime": "2016-05-20T15:35+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2714"
+        },
+        "id": "GzambUOUf-s015w+",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2DNVpWTc2NgBKSA",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-22T14:15+02:00",
+          "departureTime": "2016-05-22T13:00+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "QNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GzambUOUf-s015w+"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GcdomN64Z6+9nVwK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACXBfqtkmqlYlGW/uPzef5CVmNGbiZ00VxFxRfI01yOkHmMxrVG0lH3XTVnD7H9dwSD85oO6fn1QERLzm4GgKRW+hn+yDeE",
+        "segmentId": "GorXYiOVef7sI5aR"
+       }
+      ],
+      "baseFareTotal": "EUR154.00",
+      "saleFareTotal": "EUR154.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR231.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 125.21QNLNNB NUC 167.67 END ROE 0.918404 FARE EUR 154.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR236.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "5697"
+        },
+        "id": "GKDbTUa8aqjXl6Sr",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L0hDtkUULU7H38eY",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T21:00+02:00",
+          "departureTime": "2016-05-20T18:35+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AO7lf8m7aUEsP9b62c+KrRNuN9r3KoRg4Zh0exN1c9YE",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "QRTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AO7lf8m7aUEsP9b62c+KrRNuN9r3KoRg4Zh0exN1c9YE",
+        "segmentId": "GKDbTUa8aqjXl6Sr"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR159.00",
+      "saleFareTotal": "EUR159.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR236.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 64.24QRTNVY IB X/MAD IB BCN 108.88ONL3NB NUC 173.12 END ROE 0.918404 FARE EUR 159.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR246.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00B",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "5772"
+        },
+        "id": "GP0QC8V4+fcRj1kP",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaYUnIWVUduX3y4j",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T09:30+02:00",
+          "departureTime": "2016-05-20T07:05+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "IB",
+         "number": "3721"
+        },
+        "id": "GorXYiOVef7sI5aR",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5qZsnlEDc5HEEYH",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T10:35+02:00",
+          "departureTime": "2016-05-22T08:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A5c98xfmO6506GazPzhXWYjABYnZZYTtfrf0s4Q9b35Q",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "NRTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ONL3NB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A5c98xfmO6506GazPzhXWYjABYnZZYTtfrf0s4Q9b35Q",
+        "segmentId": "GP0QC8V4+fcRj1kP"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GorXYiOVef7sI5aR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtkaLkWJvMddypzrau4Bdf1GryMB8fsfIgxSCLwNmpvf/yNbvMjOdNa7YMM1BnUBlmsvjLq0UwVnTHVoeYKXWYSq4wyXp6/",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR169.00",
+      "saleFareTotal": "EUR169.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR246.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 75.13NRTNVY IB X/MAD IB BCN 108.88ONL3NB NUC 184.01 END ROE 0.918404 FARE EUR 169.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR246.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00K",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 830,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2159"
+        },
+        "id": "Gc2HKvO7TP8uKOtR",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LDQNdWUuLvAnp2Zf",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T21:55+02:00",
+          "departureTime": "2016-05-20T20:25+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 590
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "1091"
+        },
+        "id": "GCRnES7iYvdUZcMA",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LTYDxQOHqOtToptX",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-21T10:15+02:00",
+          "departureTime": "2016-05-21T07:45+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "UX",
+         "number": "3762"
+        },
+        "id": "GBClh5Fiuje1Ijvf",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LSlWFEyDtCI0zvOH",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-22T09:35+02:00",
+          "departureTime": "2016-05-22T07:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A784A1kT5tI6h6vj1tFMvDmhl74PmwsQjWv+gQ3Xu/vE",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "QLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "PL3RTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A784A1kT5tI6h6vj1tFMvDmhl74PmwsQjWv+gQ3Xu/vE",
+        "segmentId": "Gc2HKvO7TP8uKOtR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GBClh5Fiuje1Ijvf"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A784A1kT5tI6h6vj1tFMvDmhl74PmwsQjWv+gQ3Xu/vE",
+        "segmentId": "GCRnES7iYvdUZcMA"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR175.00",
+      "saleFareTotal": "EUR175.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR246.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 103.44QLRTNL UX X/MAD UX BCN 87.10PL3RTNL NUC 190.54 END ROE 0.918404 FARE EUR 175.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-23T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR251.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00D",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "IB",
+         "number": "5361"
+        },
+        "id": "GGQnBqVoQAi-wwRC",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-ErdPH7O3Wir6jl",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 160,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 160,
+        "flight": {
+         "carrier": "IB",
+         "number": "3723"
+        },
+        "id": "GsrI+-0oZWO+k+DU",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lpg-MfV9OTtodCh8",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T14:55+02:00",
+          "departureTime": "2016-05-22T12:15+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 160,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2742"
+        },
+        "id": "GIhSRjnnHlwTDsjt",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb03oRzT2OUbbmri",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T22:45+02:00",
+          "departureTime": "2016-05-22T21:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "NNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GGQnBqVoQAi-wwRC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "segmentId": "GsrI+-0oZWO+k+DU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "segmentId": "GIhSRjnnHlwTDsjt"
+       }
+      ],
+      "baseFareTotal": "EUR174.00",
+      "saleFareTotal": "EUR174.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR251.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 146.99NNLNNB NUC 189.45 END ROE 0.918404 FARE EUR 174.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR251.26",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00C",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 135,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 135,
+        "flight": {
+         "carrier": "IB",
+         "number": "5361"
+        },
+        "id": "GGQnBqVoQAi-wwRC",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-ErdPH7O3Wir6jl",
+          "aircraft": "320",
+          "arrivalTime": "2016-05-20T15:45+02:00",
+          "departureTime": "2016-05-20T13:30+02:00",
+          "origin": "BCN",
+          "destination": "AMS",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 135,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 770,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 160,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 160,
+        "flight": {
+         "carrier": "IB",
+         "number": "3723"
+        },
+        "id": "GsrI+-0oZWO+k+DU",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lpg-MfV9OTtodCh8",
+          "aircraft": "32S",
+          "arrivalTime": "2016-05-22T14:55+02:00",
+          "departureTime": "2016-05-22T12:15+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 160,
+          "operatingDisclosure": "OPERATED BY COMPANIA OPERADORA DE CORTO Y MEDIO",
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "2736"
+        },
+        "id": "GI+KbWyuIM3HaYln",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlRuqeDsbHwk+-TW",
+          "aircraft": "321",
+          "arrivalTime": "2016-05-22T19:45+02:00",
+          "departureTime": "2016-05-22T18:30+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 75,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "carrier": "IB",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "ORTNVY"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "carrier": "IB",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "NNLNNB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "segmentId": "GI+KbWyuIM3HaYln"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AjV2Q59ELbkgjlHV0+Czsqinw3zx+IZHKwuXdAbmU03o",
+        "segmentId": "GGQnBqVoQAi-wwRC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMRXLsYJzY2en8bOG8vTAcE4qfXDakf40r+On07QYZibQpCr1L5Kg7dtQ69vRdqWJ2Wm1S7KCfbsNam8ED6NmCo4Nh3mBpU",
+        "segmentId": "GsrI+-0oZWO+k+DU"
+       }
+      ],
+      "baseFareTotal": "EUR174.00",
+      "saleFareTotal": "EUR174.00",
+      "saleTaxTotal": "EUR77.26",
+      "saleTotal": "EUR251.26",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.24"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR25.93"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR20.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR6.16"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN IB AMS 42.46ORTNVY IB X/MAD IB BCN 146.99NNLNNB NUC 189.45 END ROE 0.918404 FARE EUR 174.00 XT 25.93JD 1.24OG 6.16QV 10.53CJ 12.90RN 0.50VV 20.00YQ",
+      "latestTicketingTime": "2016-02-22T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR266.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00E",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 325,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 85
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "1093"
+        },
+        "id": "GHLDEe6GpiygWPF2",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LErnejvjqGySH0vK",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-20T17:30+02:00",
+          "departureTime": "2016-05-20T15:00+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "UX",
+         "number": "3762"
+        },
+        "id": "GBClh5Fiuje1Ijvf",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LSlWFEyDtCI0zvOH",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-22T09:35+02:00",
+          "departureTime": "2016-05-22T07:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "PL3RTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GHLDEe6GpiygWPF2"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GBClh5Fiuje1Ijvf"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR195.00",
+      "saleFareTotal": "EUR195.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR266.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 87.10PL3RTNL NUC 212.31 END ROE 0.918404 FARE EUR 195.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-23T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR266.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00G",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 640,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 400
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "3765"
+        },
+        "id": "GtXX7oGyyZpE2QaU",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3lu9j6Jqqb29AT-",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-20T22:45+02:00",
+          "departureTime": "2016-05-20T20:15+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "UX",
+         "number": "3762"
+        },
+        "id": "GBClh5Fiuje1Ijvf",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LSlWFEyDtCI0zvOH",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-22T09:35+02:00",
+          "departureTime": "2016-05-22T07:00+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "PL3RTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GtXX7oGyyZpE2QaU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GBClh5Fiuje1Ijvf"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aqi0iib9e9x0tWsbZTmEKCvXxvyvtTEUzSTJpNBSQPjU",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR195.00",
+      "saleFareTotal": "EUR195.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR266.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 87.10PL3RTNL NUC 212.31 END ROE 0.918404 FARE EUR 195.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-23T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR336.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00F",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 325,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 85
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "1093"
+        },
+        "id": "GHLDEe6GpiygWPF2",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LErnejvjqGySH0vK",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-20T17:30+02:00",
+          "departureTime": "2016-05-20T15:00+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 160,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 160,
+        "flight": {
+         "carrier": "UX",
+         "number": "1098"
+        },
+        "id": "GBT9TNDKRWBwUolg",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCInqq-KUJOmIdvu",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-22T13:45+02:00",
+          "departureTime": "2016-05-22T11:05+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 160,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ULRTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GHLDEe6GpiygWPF2"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "segmentId": "GBT9TNDKRWBwUolg"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR265.00",
+      "saleFareTotal": "EUR265.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR336.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 163.32ULRTNL NUC 288.53 END ROE 0.918404 FARE EUR 265.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-24T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR336.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00I",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 640,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 400
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "3765"
+        },
+        "id": "GtXX7oGyyZpE2QaU",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3lu9j6Jqqb29AT-",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-20T22:45+02:00",
+          "departureTime": "2016-05-20T20:15+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 160,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 160,
+        "flight": {
+         "carrier": "UX",
+         "number": "1098"
+        },
+        "id": "GBT9TNDKRWBwUolg",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCInqq-KUJOmIdvu",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-22T13:45+02:00",
+          "departureTime": "2016-05-22T11:05+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 160,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "ULRTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "segmentId": "GBT9TNDKRWBwUolg"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GtXX7oGyyZpE2QaU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYcWLkGvGULLL75HkOWseItKSnK0q3jctjlXqB7dV9FQ",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR265.00",
+      "saleFareTotal": "EUR265.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR336.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 163.32ULRTNL NUC 288.53 END ROE 0.918404 FARE EUR 265.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-24T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR406.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00H",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 325,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 85
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "1093"
+        },
+        "id": "GHLDEe6GpiygWPF2",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LErnejvjqGySH0vK",
+          "aircraft": "738",
+          "arrivalTime": "2016-05-20T17:30+02:00",
+          "departureTime": "2016-05-20T15:00+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "mileage": 905,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "UX",
+         "number": "3764"
+        },
+        "id": "GZWm-uhYMKsmY3GU",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqiQ0CelNxKJlOZE",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-22T12:05+02:00",
+          "departureTime": "2016-05-22T09:30+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "SLRTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GHLDEe6GpiygWPF2"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "segmentId": "GZWm-uhYMKsmY3GU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR335.00",
+      "saleFareTotal": "EUR335.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR406.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 239.54SLRTNL NUC 364.75 END ROE 0.918404 FARE EUR 335.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-24T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR406.92",
+    "id": "4FDwW9OqiY5QA1MoSYywcI00J",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 640,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "UX",
+         "number": "2057"
+        },
+        "id": "GJkb3UJMcyXlI0J4",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L36rByoe9iaWuvWk",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-20T13:35+02:00",
+          "departureTime": "2016-05-20T12:05+02:00",
+          "origin": "BCN",
+          "destination": "MAD",
+          "originTerminal": "1",
+          "destinationTerminal": "2",
+          "duration": 90,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 400
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "UX",
+         "number": "3765"
+        },
+        "id": "GtXX7oGyyZpE2QaU",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3lu9j6Jqqb29AT-",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-20T22:45+02:00",
+          "departureTime": "2016-05-20T20:15+02:00",
+          "origin": "MAD",
+          "destination": "AMS",
+          "originTerminal": "2",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 155,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 155,
+        "flight": {
+         "carrier": "UX",
+         "number": "3764"
+        },
+        "id": "GZWm-uhYMKsmY3GU",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqiQ0CelNxKJlOZE",
+          "aircraft": "737",
+          "arrivalTime": "2016-05-22T12:05+02:00",
+          "departureTime": "2016-05-22T09:30+02:00",
+          "origin": "AMS",
+          "destination": "MAD",
+          "destinationTerminal": "2",
+          "duration": 155,
+          "operatingDisclosure": "OPERATED BY KLM",
+          "mileage": 905,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "UX",
+         "number": "2006"
+        },
+        "id": "GHq6yQGYy2WPZmEb",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lb+Cr2ohhX5g637G",
+          "aircraft": "332",
+          "arrivalTime": "2016-05-22T16:30+02:00",
+          "departureTime": "2016-05-22T15:10+02:00",
+          "origin": "MAD",
+          "destination": "BCN",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "carrier": "UX",
+        "origin": "BCN",
+        "destination": "AMS",
+        "basisCode": "TLRTNL"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "carrier": "UX",
+        "origin": "AMS",
+        "destination": "BCN",
+        "basisCode": "SLRTNL"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GtXX7oGyyZpE2QaU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "segmentId": "GZWm-uhYMKsmY3GU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AxDx/K2VGOr2PsjSNORXY5UENCkIbMQJEoBH3Hr+Q8rg",
+        "segmentId": "GJkb3UJMcyXlI0J4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhF/+TiS/jM5wlcTnRNMCDDMaPtvp4i96HZhfv+k8crQ",
+        "segmentId": "GHq6yQGYy2WPZmEb"
+       }
+      ],
+      "baseFareTotal": "EUR335.00",
+      "saleFareTotal": "EUR335.00",
+      "saleTaxTotal": "EUR71.92",
+      "saleTotal": "EUR406.92",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "EUR1.89"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "EUR37.34"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "EUR8.76"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR12.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       }
+      ],
+      "fareCalculation": "BCN UX X/MAD UX AMS 125.21TLRTNL UX X/MAD UX BCN 239.54SLRTNL NUC 364.75 END ROE 0.918404 FARE EUR 335.00 XT 37.34JD 1.89OG 8.76QV 10.53CJ 12.90RN 0.50VV",
+      "latestTicketingTime": "2016-02-24T11:19-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
