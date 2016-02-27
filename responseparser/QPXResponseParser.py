@@ -2,7 +2,7 @@ from SegmentLeg import SegmentLeg
 from ItinearySegment import ItinearySegment
 from FlightItinerary import FlightItinerary
 from Trip import Trip
-
+import time
 
 class QPXResponseParser:
 
@@ -40,7 +40,7 @@ class QPXResponseParser:
                 flight_itineary = FlightItinerary(duration, itinerary_segments)
                 flight_itineraries.append(flight_itineary)
 
-            trip = Trip(price, flight_itineraries)
+            trip = Trip(price, flight_itineraries, time.strftime("%Y-%m-%d"))
             flight_trips.append(trip)
 
         return flight_trips
