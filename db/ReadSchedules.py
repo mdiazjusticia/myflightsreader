@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-import json
 
 class ReadSchedules:
 
@@ -9,6 +8,6 @@ class ReadSchedules:
 
 
     def get_schedules(self):
-        schedules = self.db.find({'origin' : 'BCN'})
+        schedules = self.db.find({})
         return schedules
 

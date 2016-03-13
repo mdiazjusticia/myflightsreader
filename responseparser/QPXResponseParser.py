@@ -17,11 +17,11 @@ class QPXResponseParser:
             slices = trip['slice']
             flight_itineraries = []
             for slice in slices: #slice --> itinerary
-                duration = slice['duration']
+                itinerary_duration = slice['duration']
                 segments = slice['segment']
                 itinerary_segments = []
                 for segment in segments: #segment + leg --> leg
-                    duration = segment['duration']
+                    segment_duration = segment['duration']
                     carrier = segment['flight']['carrier']
                     flight_number = segment['flight']['number']
                     legs = segment['leg']
@@ -29,15 +29,15 @@ class QPXResponseParser:
                     for leg in legs:
                         origin = leg['origin']
                         destination = leg['destination']
-                        duration = leg['duration']
+                        leg_duration = leg['duration']
                         aircraft = leg['aircraft']
                         departure_time = leg['departureTime']
                         arrival_time = leg['arrivalTime']
-                        segment_leg = SegmentLeg(origin, destination, duration, aircraft, departure_time, arrival_time)
+                        segment_leg = SegmentLeg(origin, destination, leg_duration, aircraft, departure_time, arrival_time)
                         segment_legs.append(segment_leg)
-                    itinerary_segment = ItinearySegment(carrier, flight_number, duration, segment_legs)
+                    itinerary_segment = ItinearySegment(carrier, flight_number, segment_duration, segment_legs)
                     itinerary_segments.append(itinerary_segment)
-                flight_itineary = FlightItinerary(duration, itinerary_segments)
+                flight_itineary = FlightItinerary(itinerary_duration, itinerary_segments)
                 flight_itineraries.append(flight_itineary)
 
             trip = Trip(price, flight_itineraries, time.strftime("%Y-%m-%d"))

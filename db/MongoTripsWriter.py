@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import json
 from ComplexEncoder import ComplexEncoder
 
-class MongoWriter:
+class MongoTripsWriter:
 
     def saveTrips(self, trips):
         client = MongoClient()

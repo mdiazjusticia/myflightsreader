@@ -1,21 +1,24 @@
 from QPXResponseParser import QPXResponseParser
-from MongoWriter import MongoWriter
+from MongoTripsWriter import MongoTripsWriter
 from ReadSchedules import ReadSchedules
-from RequestLauncher import RequestLauncher
+from QPXRequestBuilder import QPXRequestBuilder
+from QPXRequestLauncher import QPXRequestLauncher
+from MongoResponseWriter import MongoResponseWriter
 
 schedules_reader = ReadSchedules();
-launcher = RequestLauncher();
+launcher = QPXRequestLauncher();
+builder = QPXRequestBuilder();
+response_writer = MongoResponseWriter()
+parser = QPXResponseParser()
+writer = MongoTripsWriter()
 
-#with open('../requestBuilder/sample_sample') as data_file:
-#    data = json.load(data_file)
 
 
 schedules = schedules_reader.get_schedules()
-for schedule in schedules:
-    launcher.launch_request(schedule)
+requests = builder.build_requests(schedules)
 
-
-parser = QPXResponseParser()
-#flight_trips = parser.parse(data)
-writer = MongoWriter()
-#writer.saveTrips(flight_trips)
+#for schedule in schedules:
+#    response = launcher.build_requests(schedule)
+#    flight_trips = parser.parse(response)
+#    writer.saveTrips(flight_trips)
+#    response_writer.saveResponse(response)
