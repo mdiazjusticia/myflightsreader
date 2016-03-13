@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a20d6e63-606e-4131-970a-93e7d18f13e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" afterPath="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" />
     </list>
     <ignored path="myflightsreader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -609,7 +608,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457896469113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reading schedules from mongodb">
+      <created>1457896573930</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1457896573930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
