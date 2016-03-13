@@ -3,7 +3,6 @@ import logging
 class QPXRequestLauncher:
 
     def __init__(self):
-        self.key = 'AIzaSyCEKUxTbWeX0Ef78YoIYV81NY1jKfrn8ac'
         logging.basicConfig(filename='qpx.log',level=logging.DEBUG)
 
     def launch_request(self, schedule):

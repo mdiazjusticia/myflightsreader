@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20d6e63-606e-4131-970a-93e7d18f13e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/MongoResponseWriter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestBuilder/QPXRequestBuilder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestBuilder/TripRequest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestBuilder/sample/BCN_TYO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestBuilder/sample/multidestino" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tester/Test2.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requestBuilder/RequestLauncher.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/MongoWriter.py" afterPath="$PROJECT_DIR$/db/MongoTripsWriter.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/requestBuilder/json_sample" afterPath="$PROJECT_DIR$/requestBuilder/sample/json_sample" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/requestBuilder/json_sample_3_slices" afterPath="$PROJECT_DIR$/requestBuilder/sample/json_sample_3_slices" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/requestBuilder/sample_BCN_LON" afterPath="$PROJECT_DIR$/requestBuilder/sample/sample_BCN_LON" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/ReadSchedules.py" afterPath="$PROJECT_DIR$/db/ReadSchedules.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responseparser/QPXResponseParser.py" afterPath="$PROJECT_DIR$/responseparser/QPXResponseParser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tester/Test.py" afterPath="$PROJECT_DIR$/tester/Test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" afterPath="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" />
     </list>
     <ignored path="myflightsreader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QPXRequestBuilder.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QPXRequestBuilder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requestBuilder/QPXRequestBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8055556">
+            <state vertical-scroll-proportion="-22.413794">
               <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -109,7 +95,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
+              <folding>
+                <marker date="1457891784829" expanded="true" signature="20:272" placeholder="..." />
+                <marker date="1457891784829" expanded="true" signature="99:272" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QPXRequestLauncher.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QPXRequestLauncher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="67" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.17480719">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -186,11 +175,11 @@
         <option value="$PROJECT_DIR$/requestBuilder/multidestino.json" />
         <option value="$PROJECT_DIR$/requestBuilder/multidestino" />
         <option value="$PROJECT_DIR$/tester/Test2.py" />
-        <option value="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" />
         <option value="$PROJECT_DIR$/tester/Test.py" />
         <option value="$PROJECT_DIR$/requestBuilder/TripRequest.py" />
         <option value="$PROJECT_DIR$/db/ReadSchedules.py" />
         <option value="$PROJECT_DIR$/requestBuilder/QPXRequestBuilder.py" />
+        <option value="$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py" />
       </list>
     </option>
   </component>
@@ -614,15 +603,22 @@
       <option name="project" value="LOCAL" />
       <updated>1456572426810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reading schedules from mongodb">
+      <created>1457896469113</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457896469113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -633,7 +629,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38130563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -695,7 +690,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -783,7 +778,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,7 +974,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="67" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flights/Trip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1072,7 +1059,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1457891784829" expanded="true" signature="20:272" placeholder="..." />
+            <marker date="1457891784829" expanded="true" signature="99:272" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,11 +1086,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requestBuilder/QPXRequestBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8055556">
+        <state vertical-scroll-proportion="-22.413794">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestBuilder/QPXRequestLauncher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17480719">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
